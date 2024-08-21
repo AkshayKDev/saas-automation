@@ -1,3 +1,4 @@
+import { CardContainer } from "@/components/global/CardContainer";
 import { ContainerScrollAnimation } from "@/components/global/ContainerScrollAnimation";
 import { HeroParallax } from "@/components/global/HeroParallax";
 import { InfiniteMovingCards } from "@/components/global/InfiniteMovingCards";
@@ -43,6 +44,9 @@ const Home = () => {
       </section>
       <section className="mt-[-500px]">
         <Lamp />
+        <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8 -mt-72">
+          <CardContainer></CardContainer>
+        </div>
       </section>
     </main>
   );
